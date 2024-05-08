@@ -14,10 +14,16 @@ We ran the simulation using the following instructions stored in the ROM:
 
 - ----------------- Operations -----------------------------
 "0011110001010", -- MOVI R7, 10
+
 "0010100000010", -- MOVI R2, 2
+
 "1001110100000", --- SUB R7,R2
+
 "1101110100000", -- COM R7, R2
+
 "1011110000111", --- JZR R7,7
+
 "1010000000010", --- JZR R0,2
+
 "0000000000000", -- NULL
 "0000000000000" -- NULL
