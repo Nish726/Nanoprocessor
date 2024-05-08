@@ -26,4 +26,5 @@ We ran the simulation using the following instructions stored in the ROM:
 "1010000000010", --- JZR R0,2
 
 "0000000000000", -- NULL
+
 "0000000000000" -- NULL
